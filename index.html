@@ -64,18 +64,16 @@
   left: 50%;
   top: 50%;
   z-index: 1;
-  width: 70px;
-  height: 70px;
+  -webkit-animation: spin 2s linear infinite;
+  animation: spin 2s linear infinite;
   margin: -75px 0 0 -75px;
   border: 8px solid transparent;
   border-radius: 50%;
   border-top: 8px solid #231F44;
+  border-bottom: 8px solid #231F44;
   width: 50px;
   height: 50px;
-  -webkit-animation: spin 2s linear infinite;
-  animation: spin 2s linear infinite;
 }
-
 @-webkit-keyframes spin {
   0% { -webkit-transform: rotate(0deg); }
   100% { -webkit-transform: rotate(360deg); }
@@ -84,20 +82,16 @@
   0% { transform: rotate(0deg); }
   100% { transform: rotate(360deg); }
 }
-
 </style>
 </head>
 <body onload="myFunction()" style="margin:0;">
-
 <div id="loader"></div>
 
           <script>
           var myVar;
-
           function myFunction() {
             myVar = setTimeout(showPage, 3000);
           }
-
           function showPage() {
             document.getElementById("loader").style.display = "none";
             document.getElementById("myDiv").style.display = "block";
