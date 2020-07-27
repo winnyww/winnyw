@@ -1,3 +1,4 @@
 path filter=lfs diff=lfs merge=lfs -text
 *.mp4 filter=lfs diff=lfs merge=lfs -text
 Desktop/ds.mp4 filter=lfs diff=lfs merge=lfs -text
+Desktop/*.mp4 filter=lfs diff=lfs merge=lfs -text
