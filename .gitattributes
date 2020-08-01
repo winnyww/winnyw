@@ -1,2 +1,4 @@
 d.mp4 filter=lfs diff=lfs merge=lfs -text
 4.mp4 filter=lfs diff=lfs merge=lfs -text
+*.mov filter=lfs diff=lfs merge=lfs -text
+Desktop/test.mov filter=lfs diff=lfs merge=lfs -text
