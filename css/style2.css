@@ -8,10 +8,9 @@ body{
 #navbar {
   background-color: transparent;
   position: fixed;
-  top: -100px;
+  top: 0px;
   width: 100%;
   display: block;
-  transition: top 0.3s;
 }
 
 #navbar #left-side {
