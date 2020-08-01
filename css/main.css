@@ -145,9 +145,9 @@ ul.breadcrumb li a {
   					transform:translate3d(80%, 0, 0);
   }
   #p2 .decoration-container2 img {
-  	-webkit-transform:translate3d(-75%, 0, 0);
-  		 -moz-transform:translate3d(-75%, 0, 0);
-  					transform:translate3d(-75%, 0, 0);
+  	-webkit-transform:translate3d(-80%, 0, 0);
+  		 -moz-transform:translate3d(-80%, 0, 0);
+  					transform:translate3d(-80%, 0, 0);
   }
   #p3 .decoration-container3 img {
 	-webkit-transform:translate3d(61%, 0, 0);
@@ -155,9 +155,9 @@ ul.breadcrumb li a {
 					transform:translate3d(61%, 0, 0);
 }
   #p3 .decoration-container4 img {
-	-webkit-transform:translate3d(-60%, 0, 0);
-		 -moz-transform:translate3d(-60%, 0, 0);
-					transform:translate3d(-60%, 0, 0);
+	-webkit-transform:translate3d(-70%, 0, 0);
+		 -moz-transform:translate3d(-70%, 0, 0);
+					transform:translate3d(-70%, 0, 0);
 }
 
 #p5 .decoration-container5 img {
@@ -166,9 +166,9 @@ ul.breadcrumb li a {
 					transform:translate3d(60%, 0, 0);
 }
 #p5 .decoration-container6 img {
-	-webkit-transform:translate3d(-60%, 0, 0);
-		 -moz-transform:translate3d(-60%, 0, 0);
-					transform:translate3d(-60%, 0, 0);
+	-webkit-transform:translate3d(-70%, 0, 0);
+		 -moz-transform:translate3d(-70%, 0, 0);
+					transform:translate3d(-70%, 0, 0);
 }
 #p6 .decoration-container7 img {
 	-webkit-transform:translate3d(-90%, 0, 0);
@@ -176,9 +176,9 @@ ul.breadcrumb li a {
 					transform:translate3d(-90%, 0, 0);
 }
 #p6 .decoration-container8 img {
-	-webkit-transform:translate3d(62%, 0, 0);
-		 -moz-transform:translate3d(62%, 0, 0);
-					transform:translate3d(62%, 0, 0);
+	-webkit-transform:translate3d(58%, 0, 0);
+		 -moz-transform:translate3d(58%, 0, 0);
+					transform:translate3d(58%, 0, 0);
 }
   .viewing-page-2 #p2 .decoration-container img, .viewing-page-2 #p2 .decoration-container2 img{
   	-webkit-transform: translate3d(0, 0, 0) !important;
