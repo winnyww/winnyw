@@ -3,6 +3,7 @@ html,
 
 body{
   padding: 0px;
+  /* background-color: #f0f2f4; */
 }
 
 #navbar {
@@ -60,34 +61,65 @@ h2{
 
 p{
 color:#231F44;
-  font-family: 'Oswald', sans-serif;
+font-family: 'Oswald', sans-serif;
+font-size: 18px;
+}
+
+.menu{
+  padding-top: 20px;
+  background: transparent;
+  position:fixed;
+  top:0;
+  width:100%;
+  z-index:100;
 }
 
 #logo{
-  padding-top: 30px;
-  text-align: center;
+  background: transparent;
+  color: black;
+  position: fixed;
+  text-align: left;
+  top: 10px;
+  width: 90%;
+  left:5%;
 }
 
-#typing{
-display: block;
-margin-left: auto;
-margin-right: auto;
-margin-top: 30px;
-width: 85%;
-height: 600px;
+#main-pic{
+position: relative;
+margin-left: 50%;
+margin-top: 170px;
+width: 35%;
+height: 400px;
 object-fit: cover;
 }
 
-.info{
-  width: 800px;
-  padding-left: 20%;
-  padding-top: 50px;
+.section1{
+  position: absolute;
+  width: 450px;
+  margin-left: 15%;
+  top: 170px;
 }
 
-.info-2{
-  width: 800px;
-  padding-left: 20%;
-  padding-top: 1350px;
+.section2{
+  display: block;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 300px;
+}
+
+.section3{
+  display: block;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+}
+
+.info{
+  width: 600px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .info-3{
@@ -115,23 +147,17 @@ object-fit: cover;
   position: absolute;
 }
 
-#pic-2{
+#pic-2, #pic-3{
   width: 800px;
-  margin-top: 450px;
-  position: absolute;
+  margin-left: 100px;
+  position: relative;
 }
 
-#pic-3{
-  width: 600px;
-  margin-top: 970px;
-  margin-left: 14%;
-  position: absolute;
-}
 
 #pic-4{
   width: 400px;
-  margin-top: 50px;
-  margin-left: 20%;
+  margin-top: 100px;
+  margin-left: 100px;
   position: relative;
 }
 
@@ -146,7 +172,7 @@ object-fit: cover;
 .gallery{
 margin-left: auto;
 margin-right: auto;
-top: 50px;
+top: 200px;
 position: relative;
 width: 80%;
 display: grid;

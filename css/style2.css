@@ -1,163 +1,103 @@
 html,
 
-
-body{
-  padding: 0px;
+* {
+  box-sizing: border-box;
 }
 
-#navbar {
-  background-color: transparent;
+body {
+  margin: 0;
+  font-family: Arial;
+}
+
+#logo{
+  background: transparent;
+  color: black;
   position: fixed;
-  top: 0px;
-  width: 100%;
-  display: block;
+  text-align: left;
+  top: 10px;
+  width: 90%;
+  left:5%;
+}
+.menu{
+  padding-top: 20px;
+  background: transparent;
+  position:fixed;
+  top:0;
+  width:100%;
+  z-index:100;
 }
 
-#navbar #left-side {
-  float: left;
-  display: block;
-  color: black;
-  font-family: 'Pacifico', cursive;
-  text-align: center;
-  padding: 15px 50px;
-  text-decoration: none;
-  font-size: 23px;
-}
-
-#navbar #right-side {
-  float: right;
-  display: block;
-  color: black;
-  font-family: 'Pacifico', cursive;
-  text-align: center;
-  padding: 15px 50px;
-  text-decoration: none;
-  font-size: 23px;
-}
-
-#navbar a:hover {
-  background-color: #f5f5f5;
-  color: white;
-}
-
-h1 {
-  white-space: nowrap;
-  overflow: hidden;
-  font-family: 'Oswald', sans-serif;
-  font-size: 28px;
-  color: white;
-  position:absolute;
-  padding-top: 290px;
-  left:20%;
+#section1{
+    position: absolute;
+    width: 60%;
+    margin-left: 20%;
+    top: 200px;
 }
 
 h2{
   color:#231F44;
   font-family: 'Oswald', sans-serif;
-  font-size: 35px;
+  font-size: 30px;
   left: 30%;
 }
 
 p{
 color:#231F44;
   font-family: 'Oswald', sans-serif;
+  font-size: 20px;
 }
 
-#logo{
-  padding-top: 30px;
+.header {
   text-align: center;
+  padding: 32px;
 }
 
-#typing{
-display: block;
-margin-left: auto;
-margin-right: auto;
-margin-top: 30px;
-width: 85%;
-height: 600px;
-object-fit: cover;
+.row {
+  margin-top: 400px;
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  padding: 10px;
 }
 
-.info{
-  width: 800px;
-  padding-left: 20%;
-  padding-top: 50px;
+/* Create four equal columns that sits next to each other */
+.column {
+  -ms-flex: 25%; /* IE10 */
+  flex: 25%;
+  max-width: 25%;
+  padding:10px;
 }
 
-.info-2{
-  width: 800px;
-  padding-left: 20%;
-  padding-top: 100px;
-}
-
-.info-3{
-  width: 800px;
-  padding-left: 20%;
-  padding-top: 150px;
-}
-
-.info-4{
-  width: 800px;
-  padding-left: 20%;
-  padding-top: 750px;
-  position: relative;
-}
-
-#info-1{
-  width: 850px;
-  margin-top: 60px;
-  position:relative;
-}
-
-#info-2{
-  width: 850px;
-  margin-top: 70px;
-  position: relative;
-}
-
-#info-3{
-  width: 850px;
-  margin-top: 70px;
-  position: relative;
-}
-
-/* #flower1{
-  position: absolute;
-  width:406px;
-  height:247px;
+.column img {
+  margin-top: 30px;
+  vertical-align: middle;
+  width: 200px;
+  height: 220px;
   object-fit: cover;
-  margin-top: 85px;
-  margin-left: 380px;
-} */
-
-#flower2{
-  position: absolute;
-  width:406px;
-  height:247px;
-  object-fit: cover;
-  margin-top: 85px;
-  margin-left: 380px;
 }
 
-canvas {
-  display: block;
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    -ms-flex: 50%;
+    flex: 50%;
+    max-width: 50%;
+  }
 }
 
-.gallery{
-margin-left: auto;
-margin-right: auto;
-top: 100px;
-position: relative;
-width: 80%;
-display: grid;
-grid-template-columns: auto auto auto;
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+  }
 }
 
-.gallery-item{
-  width: 90%;
-}
 
 footer{
+  position: relative;
   color: #231F44;
   font-family: 'Oswald', sans-serif;
   font-size: 15px;
